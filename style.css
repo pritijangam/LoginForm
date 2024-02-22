@@ -1,0 +1,95 @@
+.box {
+    width: 600px;
+    height: 400px;
+    border: 6px solid black;
+    border-radius: 20px;
+    border-top-color: brown;
+    border-bottom-color: chocolate;
+    border-left: 0;
+    border-right: 0;
+    margin: 100px auto;
+    background-color: #20b2aa;
+  }
+  .box h2 {
+    text-align: center;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 20px;
+    color: white;
+    font-size: 48px;
+  }
+  h2:hover {
+    -webkit-text-stroke: 1px;
+    -webkit-text-fill-color: transparent;
+  }
+  .form-controls {
+    width: 400px;
+    height: auto;
+    margin: auto;
+  }
+  input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 22px 0;
+    background-color: white;
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    padding-left: 40px;
+    font-size: 20px;
+    border: none;
+    border-bottom: 2px solid black;
+    outline: none;
+    background-image: url("IMAGES/icons8-user-30.png");
+  }
+  input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 22px 0;
+    background-color: white;
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    padding-left: 40px;
+    font-size: 16px;
+    border: none;
+    border-bottom: 2px solid black;
+    outline: none;
+    background-image: url("IMAGES/icons8-lock-24")
+  }
+  label {
+    width: 100%;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+  }
+  label1 {
+    width: 100%;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+  }
+  input[type="text"]::placeholder {
+    font-size: 13px;
+    font-weight: bold;
+  }
+  input[type="password"]::placeholder {
+    font-size: 13px;
+    font-weight: bold;
+  }
+  input[type="submit"] {
+    background-color: #003e77;
+    color: white;
+    padding: 16px 32px;
+    font-size: 18px;
+    font-weight: bold;
+    width: 100%;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+    margin: 15px;
+  }
+  input[type="submit"]:hover {
+    background-color: #f08080;
+    color: white;
+  }
